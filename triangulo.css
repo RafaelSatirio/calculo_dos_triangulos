@@ -1,0 +1,16 @@
+body {
+    font: normal 18pt Arial;
+    background: aqua;
+}
+
+div#resultado{
+    width: 400px;
+    height: 150px;
+    background: orange;
+    border-radius: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
