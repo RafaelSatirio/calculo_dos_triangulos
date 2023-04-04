@@ -9,7 +9,7 @@ let resultado
 
 if(numero1!=numero2 && numero2!=numero3 && numero3!=numero1){
     resultado = "Escaleno";
-}else if (numero1 == numero2 && numero2!=numero3){
+}else if (numero1 == numero2 && numero2!=numero3 || numero1==numero3 && numero2!=numero3 || numero2==numero3 && numero3!=numero1){
     resultado = "Isósceles";
 }else{
     resultado = "Equilátero";
